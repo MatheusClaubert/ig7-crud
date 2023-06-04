@@ -94,10 +94,6 @@ Durante o desenvolvimento siga boas práticas e recomendações de banco de dado
     - id
     - nome
 
-# Mais informações 
-Ao final do teste, suba o projeto para um repositório no Github e envie o link para o nosso E-mail com suas informações de contato juntamente com seu curriculum ou Linkedin atualizado. Fique a vontate para entrar em contato conosco caso tenha alguma dúvida.
-
-- E-mail: sipae.ig7sistemas@sipae.com.br
 ## Security Vulnerabilities
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
