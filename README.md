@@ -59,41 +59,45 @@ In order to ensure that the Laravel community is welcoming to all, please review
 
 
 #
+<p align="center"><img style="width: 500px;" src="https://sipae.com.br/logo.png"></p>
 
-# Sobre ESSA APLICAÇÃO
-Construa uma aplicação utilizando as tecnologias recomendadas ou quaisquer outras tecnologias que julgar benéficas ao projeto. A aplicação deve possuir as entidades listadas abaixo. Cada turma pertence a uma escola, e os professores poderão ser vinculados a uma ou mais turmas.
 
+# Sobre a aplicação
+Construa uma aplicação utilizando as tecnologias recomendadas ou quaisquer outras tecnologias que julgar benéficas ao projeto. A aplicação deve possuir as entidades listadas abaixo. 
+Cada turma pertence a uma escola, e os professores poderão ser vinculados a uma ou mais turmas.
 
  - Escola;
  - Turma;
  - Professor.
 
 # Funcionalidades
-Cadastro, edição e remoção de escolas
-Cadastro, edição e remoção de turmas
-Cadastro, edição e remoção de profesores
-Vinculo de professores em turmas
+  - Cadastro, edição e remoção de escolas
+  - Cadastro, edição e remoção de turmas
+  - Cadastro, edição e remoção de profesores
+  - Vinculo de professores em turmas
 
-Base de dados
+# Base de dados
 Durante o desenvolvimento siga boas práticas e recomendações de banco de dados. O banco de dados deve ser criado utilizando Migrations do framework. As tabelas devem possuir os seguinte campos:
+  - Escola
+    - id
+    - status
+    - inep
+    - endereço
+    - nome
+  - Turma
+    - id
+    - id_escola
+    - status
+    - turno
+    - nome
+  - Professor
+    - id
+    - nome
 
-Escola
-    id
-    status
-    inep
-    endereço
-    nome
-Turma
-    id
-    id_escola
-    status
-    turno
-    nome
-Professor
-    id
-    nome
+# Mais informações 
+Ao final do teste, suba o projeto para um repositório no Github e envie o link para o nosso E-mail com suas informações de contato juntamente com seu curriculum ou Linkedin atualizado. Fique a vontate para entrar em contato conosco caso tenha alguma dúvida.
 
-
+- E-mail: sipae.ig7sistemas@sipae.com.br
 ## Security Vulnerabilities
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
