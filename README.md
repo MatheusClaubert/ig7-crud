@@ -57,6 +57,33 @@ Thank you for considering contributing to the Laravel framework! The contributio
 
 In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
+
+#
+
+# Sobre ESSA APLICAÇÃO
+Construa uma aplicação utilizando as tecnologias recomendadas ou quaisquer outras tecnologias que julgar benéficas ao projeto. A aplicação deve possuir um sistema de login, e possuir entidades listadas abaixo. O administrador será responsável por todos os cadastros e vínculos, cada turma pertence a sua escola, e os professores poderão ser vinculados a uma ou mais turmas e escolas. Utilize boas práticas e normalização de banco de dados.
+Construa uma aplicação utilizando as tecnologias recomendadas ou quaisquer outras tecnologias que julgar benéficas ao projeto. A aplicação deve possuir as entidades listadas abaixo. 
+Cada turma pertence a uma escola, e os professores poderão ser vinculados a uma ou mais turmas.
+
+ - Administrador;
+ - Escola;
+ - Turma;
+ - Professor.
+
+# Funcionalidades
+  - Utilize uma seeder para cadastrar o usuário principal (Administrador)
+  - Cadastro, edição e remoção de escolas
+  - Cadastro, edição e remoção de turmas
+  - Cadastro, edição e remoção de profesores
+@@ -47,6 +45,7 @@ Durante o desenvolvimento siga boas práticas e recomendações de banco de dado
+    - nome
+  - Turma
+    - id
+    - id_escola
+    - status
+    - turno
+    - nome
+
 ## Security Vulnerabilities
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
