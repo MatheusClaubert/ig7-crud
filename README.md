@@ -61,28 +61,38 @@ In order to ensure that the Laravel community is welcoming to all, please review
 #
 
 # Sobre ESSA APLICAÇÃO
-Construa uma aplicação utilizando as tecnologias recomendadas ou quaisquer outras tecnologias que julgar benéficas ao projeto. A aplicação deve possuir um sistema de login, e possuir entidades listadas abaixo. O administrador será responsável por todos os cadastros e vínculos, cada turma pertence a sua escola, e os professores poderão ser vinculados a uma ou mais turmas e escolas. Utilize boas práticas e normalização de banco de dados.
-Construa uma aplicação utilizando as tecnologias recomendadas ou quaisquer outras tecnologias que julgar benéficas ao projeto. A aplicação deve possuir as entidades listadas abaixo. 
-Cada turma pertence a uma escola, e os professores poderão ser vinculados a uma ou mais turmas.
+Construa uma aplicação utilizando as tecnologias recomendadas ou quaisquer outras tecnologias que julgar benéficas ao projeto. A aplicação deve possuir as entidades listadas abaixo. Cada turma pertence a uma escola, e os professores poderão ser vinculados a uma ou mais turmas.
 
- - Administrador;
+
  - Escola;
  - Turma;
  - Professor.
 
 # Funcionalidades
-  - Utilize uma seeder para cadastrar o usuário principal (Administrador)
-  - Cadastro, edição e remoção de escolas
-  - Cadastro, edição e remoção de turmas
-  - Cadastro, edição e remoção de profesores
-@@ -47,6 +45,7 @@ Durante o desenvolvimento siga boas práticas e recomendações de banco de dado
-    - nome
-  - Turma
-    - id
-    - id_escola
-    - status
-    - turno
-    - nome
+Cadastro, edição e remoção de escolas
+Cadastro, edição e remoção de turmas
+Cadastro, edição e remoção de profesores
+Vinculo de professores em turmas
+
+Base de dados
+Durante o desenvolvimento siga boas práticas e recomendações de banco de dados. O banco de dados deve ser criado utilizando Migrations do framework. As tabelas devem possuir os seguinte campos:
+
+Escola
+    id
+    status
+    inep
+    endereço
+    nome
+Turma
+    id
+    id_escola
+    status
+    turno
+    nome
+Professor
+    id
+    nome
+
 
 ## Security Vulnerabilities
 
